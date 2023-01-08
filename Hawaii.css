@@ -1,0 +1,59 @@
+@import url("http://fonts.googleapis.com/earlyaccess/jejugothic.css");
+/* Imports fontstyle into project */
+body {
+    font-family: 'Jeju Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+    color: white;
+}
+/* Backdrop design */
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #46424A;
+    font-weight: 100;
+}
+/* Header alignment title */
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    padding: 10px; 
+    color: #7DC9C8;
+}
+/* Composition of the time header and color coded font */
+.time h1{
+    font-weight: 100;
+    margin: 0 10px;
+}
+/* Font thickness */
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Displays the region in the center with auto width and auto height */
+.map img {
+    height: 100px;
+}
+/* Horizontally composes the left and right elements with the center */
+.map .region {
+    height: 290px;
+}
+/* Heightens or lowers the size of the center design */
+.regionName {
+    text-align: center;
+    padding: 10px; 
+    color: #7DC9C8;
+    font-weight: 100;
+}
+/* Sub title under the region */
+.circles {
+    display: block;
+    margin: 70px auto;
+    height: 40px;
+}
+/* Ellipses takes up the available width space */
